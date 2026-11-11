@@ -8,11 +8,11 @@ Plugin hinzufügen, im Reiter „Connectors“ BaKo verbinden und mit dem eigene
 
 ## Daten
 
-Claude ruft BaKo-Werkzeuge über `bako.co.at/mcp` auf. Jede Anfrage läuft mit dem Anmeldetoken des Nutzers gegen die BaKo-Datenbank, die Projekt-, Firmen- und Modulrechte prüft. Das Plugin speichert selbst nichts. Den Zugriff entzieht man unter `bako.co.at/ki-verbindungen` oder durch Entfernen des Konnektors. Mehr: https://bako.co.at/ki-assistenten, Datenschutz: https://bako.co.at/datenschutz.
+Claude ruft BaKo-Werkzeuge über `bako.co.at/mcp` auf. Jede Anfrage läuft mit dem Anmeldetoken des Nutzers gegen die BaKo-Datenbank, die Projekt-, Firmen- und Modulrechte prüft. Das Plugin speichert selbst nichts. Den Zugriff entzieht man unter `bako.co.at/ki-verbindungen`; das Entfernen des Konnektors allein entzieht ihn nicht. Mehr: https://bako.co.at/ki-assistenten, Datenschutz: https://bako.co.at/datenschutz.
 
 ## In English
 
-BaKo is a construction-site coordination platform for Austria. This plugin connects Claude to BaKo through the remote MCP server `https://bako.co.at/mcp` and adds the skill `bako-baustelle`, which explains how to work with BaKo projects. Users sign in with their own BaKo account via OAuth. Claude can read projects, schedules, tasks, protocols, meetings, documents, quantity take-offs and plan measurements, bills of quantities, costs, tenders and invoices, and create drafts on request. It cannot publish, send, award, approve, pay or change access. Requests run with the user's own permissions; the plugin stores nothing. Revoke access at `bako.co.at/ki-verbindungen`. Support: support@bako.co.at.
+BaKo is a construction-site coordination platform for Austria. This plugin connects Claude to BaKo through the remote MCP server `https://bako.co.at/mcp` and adds the skill `bako-baustelle`, which explains how to work with BaKo projects. Users sign in with their own BaKo account via OAuth. Claude can read projects, schedules, tasks, protocols, meetings, documents, quantity take-offs and plan measurements, bills of quantities, costs, tenders and invoices, and create drafts on request. It cannot publish, send protocols, invitations or messages, award, approve, pay or change access; creating or changing tasks triggers the same automatic task emails as in the app. Requests run with the user's own permissions; the plugin stores nothing. Revoke access at `bako.co.at/ki-verbindungen`; removing the connector alone does not revoke it. Support: support@bako.co.at.
 
 ## Lizenz / License
 
