@@ -1,0 +1,14 @@
+{
+  "name": "bako",
+  "owner": {
+    "name": "Ing. Heinz Wucherer (Baumanagement Heinz)",
+    "url": "https://bako.co.at"
+  },
+  "plugins": [
+    {
+      "name": "bako",
+      "source": "./bako",
+      "description": "BaKo in Claude: Projekte, Terminplan, Aufgaben, Protokolle, Besprechungen, Dokumente, Massenermittlung mit Plan-Messplatz, LV, Kosten, Vergaben und Rechnungen abfragen und Entwürfe anlegen, immer mit den Rechten des eigenen BaKo-Kontos."
+    }
+  ]
+}
