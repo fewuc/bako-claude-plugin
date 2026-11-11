@@ -11,7 +11,7 @@ BaKo ist eine österreichische Plattform für Baustellenkoordination. Der BaKo-K
 
 1. Projekt klären: `bako_list_projects` aufrufen und mit dem Projektcode weiterarbeiten. Bei mehreren passenden Projekten nachfragen.
 2. Vor jeder Änderung den aktuellen Stand lesen (zum Beispiel `bako_get_tasks`, `bako_get_schedule`, `bako_get_protocol`, `bako_get_lv_position_detail`) und Kennungen und Revisionen aus dieser Antwort verwenden.
-3. Schreiben nur auf ausdrücklichen Wunsch, und vorher kurz zusammenfassen, was gespeichert wird. Es entstehen immer Entwürfe: Nichts wird veröffentlicht, versendet, vergeben, freigegeben oder bezahlt.
+3. Schreiben nur auf ausdrücklichen Wunsch, und vorher kurz zusammenfassen, was gespeichert wird. Protokolle und Besprechungen bleiben Entwürfe; Aufgaben, Termine und LV-Texte werden direkt geändert. Nichts wird veröffentlicht, vergeben, freigegeben oder bezahlt, und es werden keine Protokolle, Einladungen oder Nachrichten versendet. Eine neue Teilaufgabe löst aber wie in der App Aufgaben-Mails an die zuständigen Personen aus; darauf vor dem Speichern hinweisen.
 4. Nichts erfinden: keine Orte, Fristen, Mengen, Preise, Firmen oder Personen. Fehlt eine Pflichtangabe, gezielt nachfragen. Bei mehrdeutigen Personen die Auswahl aus `bako_search_project_people` anbieten.
 
 ## Massenermittlung und Plan-Messplatz
@@ -27,4 +27,4 @@ Kostenübersicht, Aufträge, Nachträge und Zahlungen (`bako_get_cost_overview`,
 
 ## Grenzen
 
-Veröffentlichen, Versenden, Vergeben, Rechnungsfreigabe, Zahlungen und Projektzugänge gehen nur in der BaKo-App. Den Zugriff entzieht der Nutzer unter `bako.co.at/ki-verbindungen`.
+Veröffentlichen, der Versand von Protokollen, Einladungen oder Nachrichten, Vergeben, Rechnungsfreigabe, Zahlungen und Projektzugänge gehen nur in der BaKo-App. Den Zugriff entzieht der Nutzer unter `bako.co.at/ki-verbindungen`; das Entfernen des Konnektors im Assistenten allein entzieht ihn nicht.
