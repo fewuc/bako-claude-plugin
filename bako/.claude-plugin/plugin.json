@@ -1,0 +1,17 @@
+{
+  "name": "bako",
+  "displayName": "BaKo Baustellenkoordination",
+  "version": "0.2.0",
+  "description": "BaKo in Claude: Projekte, Terminplan, Aufgaben, Protokolle, Besprechungen, Dokumente, Massenermittlung mit Plan-Messplatz, LV, Kosten, Vergaben und Rechnungen abfragen und Entwürfe anlegen, immer mit den Rechten des eigenen BaKo-Kontos.",
+  "author": {
+    "name": "Ing. Heinz Wucherer (Baumanagement Heinz)",
+    "email": "support@bako.co.at",
+    "url": "https://bako.co.at"
+  },
+  "homepage": "https://bako.co.at/support",
+  "license": "MIT",
+  "icon": "./assets/icon.png",
+  "documentationUrl": "https://bako.co.at/ki-assistenten",
+  "supportUrl": "https://bako.co.at/support",
+  "privacyPolicyUrl": "https://bako.co.at/datenschutz"
+}
